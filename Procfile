@@ -1,1 +1,1 @@
-web: echo "Using PORT=$PORT" && php -S 0.0.0.0:$PORT -t public
+web: php -S 0.0.0.0:$PORT -t public
