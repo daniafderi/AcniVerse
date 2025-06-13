@@ -20,7 +20,7 @@
 
       <!-- Navigation as buttons inside forms -->
       <div class="flex space-x-4 text-lg font-medium">
-        <a href="{{ route('home') }}" rel="nofollow" class="hover:text-black px-3 py-1 text-[#3e3e3e]">Beranda</a>
+        <a href="{{ route('homepage') }}" rel="nofollow" class="hover:text-black px-3 py-1 text-[#3e3e3e]">Beranda</a>
         <a href="#jenis-jerawat" rel="nofollow" class="bg-pink-200 px-3 py-1 rounded-lg text-[#3E3E3E]">Jenis Jerawat</a>
         <a href="{{ route('scan') }}" rel="nofollow" class="hover:text-black px-3 py-1 text-[#3E3E3E]">Deteksi</a>
       </div>
